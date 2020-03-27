@@ -1,0 +1,5 @@
+antlr program.g4
+javac program*.java
+class
+grun program start input.txt -gui
+

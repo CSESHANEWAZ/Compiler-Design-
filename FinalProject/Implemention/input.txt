@@ -1,0 +1,35 @@
+@Include stdio_h;
+
+main start[]
+beginmain
+
+  int num.
+  int count.
+
+  for[num=1;num less than equal 100;num++]
+  beginfor
+
+  count equal to 0.
+
+  for[k=2;k less than equal num devide 2;k++]
+  beginfor
+
+    if[num mod k == 0]
+    beginif
+
+    count++.
+    break.
+
+    endif
+  endfor
+
+    if[count == 0]
+    beginif
+
+    print[num].
+
+    endif
+  endfor
+
+return 0.
+endmain
